@@ -1,0 +1,15 @@
+{
+  "dataset": "telco",
+  "sha256": "88be4b93fbe0cc83421af1c503794c97c342eca914c1576db7c276e61d61358a",
+  "rows": 7043,
+  "train_rows": 5634,
+  "test_rows": 1409,
+  "seed": 42,
+  "folds": 5,
+  "scoring": "accuracy",
+  "grid_candidates": 48,
+  "random_candidates": 24,
+  "selected_by_training_cv": "Random Forest ensemble",
+  "sklearn": "1.8.0",
+  "pandas": "3.0.0"
+}

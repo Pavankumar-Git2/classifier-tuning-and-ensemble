@@ -35,3 +35,7 @@ Install dependencies with `python -m pip install -r requirements.txt`, then open
 80/20 stratified split, seed 42; five identical shuffled stratified folds on training data; fold-local median/mode imputation and one-hot encoding inside a Pipeline. GridSearchCV tests 48 combinations; RandomizedSearchCV samples 24 of 512 combinations, seed 42. Both optimize accuracy and refit on training data. Random Forest uses 200 trees and a minimum leaf size of 2, fixed before evaluation. Customer ID and the target are excluded from features. Titanic excludes `alive`, which directly reveals survival.
 
 The saved notebooks execute top-to-bottom. Assertions check four result rows, five folds, train/test disjointness, search candidate counts and independently recount each test accuracy from saved predictions. Source hashes and library versions are recorded in provenance. No source dataset is redistributed in this repository.
+
+## Published notebook
+
+[Kaggle: Telco Churn - Tune and Ensemble Classifier](https://www.kaggle.com/code/pavankumarkillari/telco-churn-tune-and-ensemble-classifier). Version 1 executed successfully on Kaggle in 1 minute 16 seconds, using Python 3.13.15, scikit-learn 1.6.1 and pandas 2.3.3. Core reported CV and test results match the local execution. Full exported results are also browsable under results/.

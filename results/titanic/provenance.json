@@ -1,0 +1,15 @@
+{
+  "dataset": "titanic",
+  "sha256": "43af81a01f25a7771c9a42809a31625f4d0de3f335cdf29961f9ba179a86c13d",
+  "rows": 891,
+  "train_rows": 712,
+  "test_rows": 179,
+  "seed": 42,
+  "folds": 5,
+  "scoring": "accuracy",
+  "grid_candidates": 48,
+  "random_candidates": 24,
+  "selected_by_training_cv": "Decision Tree GridSearchCV",
+  "sklearn": "1.8.0",
+  "pandas": "3.0.0"
+}
