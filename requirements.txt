@@ -1,0 +1,10 @@
+numpy>=2.0,<3
+pandas>=2.2,<4
+scikit-learn==1.8.0
+matplotlib>=3.9,<4
+seaborn==0.13.2
+ipython>=8
+jupyter>=1.1
+nbformat>=5.10
+nbclient>=0.10
+nbconvert>=7.16
